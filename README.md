@@ -8,13 +8,13 @@ Any questions or bug please raise a issue.
 
 #May support Android /IOS
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/januslo/react-native-bluetooth-escpos-printer/master/LICENSE) [![npm version](https://badge.fury.io/js/react-native-bluetooth-escpos-printer.svg)](https://www.npmjs.com/package/react-native-bluetooth-escpos-printer)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/hikaaam/react-native-bluetooth-printer/master/LICENSE) [![npm version](https://badge.fury.io/js/react-native-bluetooth-printer.svg)](https://www.npmjs.com/package/react-native-bluetooth-printer)
 
 ## Installation
 
 ### Step 1
 
-Install via NPM [Check In NPM](https://www.npmjs.com/package/react-native-bluetooth-escpos-printer)
+Install via NPM [Check In NPM](https://www.npmjs.com/package/@hikaaam/react-native-bluetooth-printer)
 
 ```bash
 npm install @hikaaam/react-native-bluetooth-printer --save
@@ -46,7 +46,7 @@ import {
   BluetoothManager,
   BluetoothEscposPrinter,
   BluetoothTscPrinter,
-} from "react-native-bluetooth-escpos-printer";
+} from "@hikaaam/react-native-bluetooth-printer";
 ```
 
 ## Usage and APIs

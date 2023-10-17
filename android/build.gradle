@@ -1,8 +1,10 @@
 buildscript {
     repositories {
-        jcenter { url "http://jcenter.bintray.com/" }
-        maven {url "http://repo.spring.io/plugins-release/"}
+        // jcenter { url "http://jcenter.bintray.com/" }
+        maven {url "https://repo.spring.io/plugins-release/"}
         mavenCentral()
+        google()
+        gradlePluginPortal() 
         maven {
             // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
             url "$rootDir/../node_modules/react-native/android"
@@ -20,12 +22,13 @@ buildscript {
 apply plugin: 'com.android.library'
 
 android {
-    compileSdkVersion 28
-    buildToolsVersion "28.0.3"
+    compileSdkVersion 30
+    buildToolsVersion = "29.0.2"
 
     defaultConfig {
-        minSdkVersion 16
-        targetSdkVersion 24
+        minSdkVersion 21
+        targetSdkVersion 30
+        targetSdkVersion = 30
         versionCode 1
         versionName "1.0"
     }
@@ -40,9 +43,11 @@ android {
 }
 
 repositories {
-    jcenter { url "http://jcenter.bintray.com/" }
-    maven {url "http://repo.spring.io/plugins-release/"}
+    // jcenter { url "http://jcenter.bintray.com/" }
+    maven {url "https://repo.spring.io/plugins-release/"}
     mavenCentral()
+    google()
+    gradlePluginPortal() 
     maven {
         // All of React Native (JS, Obj-C sources, Android binaries) is installed from npm
         url "$rootDir/../node_modules/react-native/android"

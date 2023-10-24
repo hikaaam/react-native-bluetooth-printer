@@ -20,6 +20,6 @@
   "author": "hikaaam",
   "license": "MIT",
   "peerDependencies": {
-    "react-native": ">=0.62.0"
+    "react-native": ">=0.55.0"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "@hikaaam/react-native-bluetooth-printer",
-  "version": "0.0.9",
+  "version": "0.1.0",
   "description": "React-Native plugin for the bluetooth ESC/POS printers.",
   "main": "index.js",
   "scripts": {

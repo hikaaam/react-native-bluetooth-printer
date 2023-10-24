@@ -45,7 +45,7 @@ buck-out/
 \.buckd/
 *.keystore
 
-ios/ZXingObjC-3.2.2/examples/
-ios/ZXingObjC-3.2.2/ZXingObjCTests/
+ios/zxingify-objc-3.6.9/examples/
+ios/zxingify-objc-3.6.9/ZXingObjCTests/
 
 android/src/main/gen/
